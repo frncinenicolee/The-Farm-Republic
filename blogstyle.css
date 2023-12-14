@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: serif;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.05);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #123421;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: 800;
+}
+.blog-container{
+    display: flex;
+    margin:20px  0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #000000;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.5rem;
+    font-weight: 590;
+    color: black;
+}
+.blog-text .blog-title:hover{
+    color: #39855b;
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: #716868;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a{
+    color: #2b2b2b;
+}
+.blog-text a:hover{
+    color: #123421;
+    transition:  all ease 0.3s;
+}
+.parent-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.head{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content:center;
+
+}img{
+    cursor: pointer;
+}
+.language{
+position: relative;
+}
+.language small{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+.sec-layer{
+display: flex;
+width: 100%;
+}
+.sec-layer .con1{
+display: flex;
+align-items: center;
+padding: 0 20px;
+width: 70%;
+}   
+.box:nth-child(1){
+width: 35%;
+height: 50px;
+display: flex;
+justify-content: flex-start;
+}
+.box:nth-child(1) > div{
+width: 100px;
+margin:6px 20px;
+}
+.box:nth-child(2){
+width: 20%;
+position: relative;
+}
+.box:nth-child(2) p{
+position: absolute;
+top: 50%;
+right: 30%;
+transform: translateY(-50%);
+}
+.sec-layer{
+border: 1px solid #ddd;
+margin: auto 0;
+}
+a:link{
+color:#000;
+text-decoration: none;
+}
+.box:nth-child(3){
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+}
+.search-con{
+width: 100%;
+height: 35px;
+display: flex;
+justify-content: space-around;
+border-radius: 20px;
+max-width: 350px;
+border: 1px solid black;
+}
+.search-con img{
+width: 25px;
+}
+.search-con input{
+border: none;
+width: 80%;
+outline: none;
+}
+img{
+width: 40px;
+}
+.side-icons{
+display: flex;
+width: 30%;
+
+justify-content: space-between;
+}
+.three-icons{
+display: flex;
+justify-content: center;
+align-items: center;
+border-left: 1px solid #ddd;
+width: 70%;
+}
+.three-dots{
+border-left: 1px solid #ddd;
+display: flex;
+align-items: center;
+width: 25%;
+}
+
+.side-icons img{
+height: 45px;
+width: 45px;
+object-fit: contain;
+}
+.nav-a{
+    width: 40%;
+    max-width: 400px;
+    background-color: rgb(20, 57, 20);
+    margin: 20px auto;
+    height: 3em;
+    overflow: hidden;
+    text-align: center;
+    border-radius:20px;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.nav-a a{
+    color: #fff;
+    font-size: 14px;
+    border-radius:20px;
+    padding: 8px 13px;
+}
+.active,.nav-a a:hover{
+    background-color: rgb(131, 173, 131);
+}
